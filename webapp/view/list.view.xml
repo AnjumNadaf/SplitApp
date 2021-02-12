@@ -1,0 +1,24 @@
+<mvc:View
+    controllerName="SA.splitapp.controller.list"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+	
+		<App>
+			<pages>
+				<Page title="List of Company" showNavButton="true" navButtonPress="onLoginBack">
+					<content>
+					<List id="listitem" selectionChange="onChangeSelection" items="{/Compnay}" mode="SingleSelect">
+					<items>
+				<ObjectListItem title="{Cname}"  ></ObjectListItem>
+					</items>
+					
+					</List>
+					
+					</content>
+				</Page>
+			</pages>
+		</App>
+	
+</mvc:View>

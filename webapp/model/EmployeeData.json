@@ -1,0 +1,74 @@
+{
+	"Compnay":[
+		
+		{
+			"Cname":"Signiwis",
+			"EmployeeDetails":[
+				{
+					"EmpName":"Anjum",
+			
+					"EmpPhone":8123964781,
+					"EmpCity":"Laxmeshwar",
+					"EmpDesignation":"SAP Consultant"
+			
+				},
+				{
+					"EmpName":"Lokesh",
+			
+					"EmpPhone":9743765789,
+					"EmpCity":"Bengaluru",
+					"EmpDesignation":"SAP UI5 Developer"
+				   
+				  
+				}
+				]
+		},
+		{
+		
+			"Cname":"Infosys",
+			"EmployeeDetails":[
+				{
+					"EmpName":"Muhsin",
+			
+					"EmpPhone":9743350379,
+					"EmpCity":"Banglore",
+					"EmpDesignation":"SAP Consultant"
+			
+				},
+				{
+					"EmpName":"Vipul",
+				
+					"EmpPhone":9743765789,
+					"EmpCity":"Dharwad",
+					"EmpDesignation":"SAP UI5 Developer"
+			
+					
+				}
+				]	
+		},
+		{
+				"Cname":"Wipro",
+			"EmployeeDetails":[
+				{
+					"EmpName":"Manvi",
+				  
+					"EmpPhone":9743350379,
+					"EmpCity":"Manguluru",
+					"EmpDesignation":"SAP Consultant"
+				  
+			
+				},
+				{
+					"EmpName":"Anant",
+			
+					"EmpPhone":9743765789,
+					"EmpCity":"Kundhapur",
+					"EmpDesignation":"SAP UI5 Developer"
+				    
+			
+					
+				}
+				]	
+		}
+		]
+}

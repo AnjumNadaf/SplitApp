@@ -1,0 +1,43 @@
+<mvc:View
+    controllerName="SA.splitapp.controller.login"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+	xmlns:sf="sap.ui.layout.form"
+>
+	
+		<App id="app">
+			<pages>
+				<Page id="page" title="Login">
+					<content>
+					
+					
+					 <VBox fitContainer="true" alignItems="Center" justifyContent="Center">
+                    	
+                    <sf:SimpleForm editable="true">
+								<VBox alignContent="Center" justifyContent="Center">
+									<HBox alignContent="Center" justifyContent="Center">
+										<Input  placeholder="Enter Your Employee ID" width="20rem" fieldWidth="30rem" value="Admin" id="userId" ></Input>
+									</HBox>
+									<HBox alignContent="Center" justifyContent="Center">
+										<Input placeholder="Enter Your Password" width="20rem" value="Admin@123" id="userPassword" ></Input>
+									</HBox>
+                                    <HBox>
+                                   
+                                    </HBox>
+									<HBox alignContent="Center" justifyContent="Center">
+										<Button id="changingButton" text="My text will change after 5 seconds" class="mySuperButton"/>
+										
+										<Button text="Login" width="20rem" press="onLogin" type="Emphasized" id="helloDialogButton"></Button>
+									</HBox>
+								</VBox>
+							</sf:SimpleForm>
+                            	
+                            	</VBox>
+								
+					</content>
+				</Page>
+			</pages>
+		</App>
+	
+</mvc:View>
